@@ -1,0 +1,530 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body { 
+  display: inline-flexbox;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://images.wallpaperscraft.com/image/laptop_keyboard_glow_170138_1920x1080.jpg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+ 
+}
+
+
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 99;
+  display: inline-block;
+}
+
+.navbar  a {
+  float: left;
+  color: dodgerblue;
+  
+  text-align: right;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 40px;
+  border-radius: 7px;
+  margin-right: 8px;
+  
+}
+
+.navbar #logo {
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+  color: dodgerblue;
+  font-family: cursive;
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  display: block;
+}
+.navbar .logo:hover{
+  background-color: rgb(161, 156, 156);
+  color: rgb(247, 242, 242);
+  
+
+}
+
+
+.navbar a .logo1 {
+ margin-top: 20px;
+  width: 50px;
+  border-radius: 50px;
+  
+ 
+}
+
+
+.navbar a:hover {
+  background-color: rgb(161, 156, 156);
+  color: rgb(247, 242, 242);
+
+}
+
+.navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.navbar-right {
+  float: right;
+  display: inline-flex;
+  list-style-type: none;
+ 
+  padding: 7px;
+}
+
+.navbar-right a {
+  float: none;
+  display: inline-block;
+  list-style-type: none;
+  
+}
+
+.navbar .fa{
+  margin: 12px 12px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+
+.sub-menu{
+  display: none;
+  
+  }
+  
+  
+  
+  .navbar .navbar-right li:hover .sub-menu  {
+    display:  block;
+    margin: 0px;
+  padding: 0px;
+  
+    
+  }
+  
+  .navbar .navbar-right li:hover .sub-menu ul{
+  width: 100px;
+  padding: 10px;
+  border-bottom: 1px;
+  list-style: none;
+  display: block;
+ 
+  }
+  .navbar .navbar-right li:hover .sub-menu ul li{
+    
+    border-radius: 7px;
+    padding: 0px;
+    
+  }
+
+
+
+@media  (max-width:1500px) {
+  body{
+    display:block;
+  }
+    #box-1{
+      display: block ;
+      padding-left: 20px;
+      text-align: left;
+    }
+     
+    #box-2{
+      display: block ;
+      padding-bottom: 30px;
+      padding-left: 35px;
+      text-align: left;
+      font-size: 20px;
+    }
+    #box-3{
+      display: block ;
+      padding-left: 20px;
+      text-align: left;
+    }
+    #box-4{
+      display: block ;
+      padding-left: 20px;
+      text-align: left;
+    }
+    .navbar #logo {
+      font-size: 30px;
+      font-weight: bold;
+      transition: 0.4s;
+      color: dodgerblue;
+      font-family: cursive;
+      float: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      display: block;
+    }
+    .navbar{
+      background: transparent;
+      position: relative;
+    
+    }
+.bg-img{
+  min-height: 150px;
+}
+.navbar .fa{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#h1{
+text-align: center;
+
+font-size: 25px;
+}
+#h2{
+  text-align: left;
+  
+  font-size: 20px;
+  }
+
+
+#box-1 #para1{
+ font-size: 14px;
+}
+#box-2 #para1{
+  font-size: 14px;
+ }
+ #box-3 #para1{
+  font-size: 14px;
+ }
+ #box-4 #para1{
+  font-size: 14px;
+ }
+ .image-frame #img-2{
+   min-height: 368px;
+    
+  }
+}
+/*
+@media  (min-width: 300px)  {
+  body{
+    display:block;
+  }
+    #box-1{
+      display: block ;
+      padding-left: 20px;
+      text-align: left;
+    }
+     
+    #box-2{
+      display: block ;
+      padding-bottom: 30px;
+      padding-left: 35px;
+      text-align: left;
+      font-size: 20px;
+    }
+    #box-3{
+      display: block ;
+      padding-left: 20px;
+      text-align: left;
+    }
+    #box-4{
+      display: block ;
+      padding-left: 20px;
+      text-align: left;
+    }
+    .navbar #logo {
+      font-size: 30px;
+      font-weight: bold;
+      transition: 0.4s;
+      color: dodgerblue;
+      font-family: cursive;
+      float: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      display: block;
+    }
+    .navbar{
+      background: transparent;
+      position: relative;
+    
+    }
+.bg-img{
+  min-height: 150px;
+}
+.navbar .fa{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#h1{
+text-align: center;
+
+font-size: 25px;
+}
+#h2{
+  text-align: left;
+  
+  font-size: 20px;
+  }
+
+
+#box-1 #para1{
+ font-size: 14px;
+}
+#box-2 #para1{
+  font-size: 14px;
+ }
+ #box-3 #para1{
+  font-size: 14px;
+ }
+ #box-4 #para1{
+  font-size: 14px;
+ }
+
+}
+
+*/
+
+
+
+
+
+
+
+
+
+.container1{
+background-color: white;
+margin-top:5px;
+padding: 40px 90px 40px 90px;
+font-size:30px;
+display: inline-block;
+}
+
+
+
+.container2{
+  background-color: white;
+  margin-top:0px;
+  padding: 40px 90px 40px 90px;
+  
+  
+  }
+
+  .container3{
+    background-color: white;
+    margin-top:0px;
+    padding: 40px 90px 40px 90px;
+    font-size:30px
+    
+    }
+
+
+    .section-1{
+      padding: 40px 90px 40px 90px;
+    }
+
+/*Feature class----------------------------*/
+
+
+
+
+
+
+h3{
+  color: rgb(46, 122, 46);
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
+  display: block;
+}
+
+h4{
+  color: dodgerblue;
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  margin: 0%; ;
+  padding: 0px 0px 0px 5px;
+  font-size: 26px;
+  
+
+}
+#para1{
+  color: rgb(126, 121, 121);
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  margin: 10px 10px 0px 5px;
+  padding: 0px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+/* Banner Css */
+
+/*--------------------------------------------------------------*/
+
+
+
+
+
+footer{
+  background-color: white;
+  padding-top: 30px;
+  
+}
+.footer-bottom{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+.footer-icon {
+  width: 100%;
+  height: auto;
+  background-color: dodgerblue;
+color: floralwhite;
+text-align: center;
+font-family: comfortaa,cursive;
+ 
+}
+ #scroll-text{
+height: auto;
+width: 100%;
+ direction: left;
+color: white;
+  
+}
+.footer-icon ul{
+  background-color: rgb(104, 99, 99);
+  position: relative;
+  text-align: center;
+  
+
+  bottom: 12px;
+  
+  display: inline-flex;
+  width: 800px;
+  height: 100%;
+  
+
+}
+.footer-icon ul li{
+list-style: none;
+
+}
+
+
+.footer-icon ul li a{
+  position: relative;
+  width: 60px;
+height: 60px;
+color: black;
+text-align: center;
+left: 300px;
+margin: 0 10px;
+border-radius: 50%;
+padding: 6px;
+box-sizing: border-box;
+text-decoration: none;  
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5),
+ inset 2px 2px 5px rgba(0, 0, 0, 0.5),
+ inset -3px -3px 7px rgb(255, 255, 255,0.05);
+ background: linear-gradient(0deg,rgba(255,255,255,0.05),#131419);
+ transition: .5s;
+}
+
+
+.footer-icon ul li a:hover{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer-icon .ul li a .fa{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: linear-gradient(0deg, rgba(255,255,255,0.05),#131419);
+  border-radius: 50%;
+  line-height: calc(60px-12px);
+  font-size: 80px;
+  color: #262626;
+  transition: .5s;
+
+}
+.footer-icon ul p{
+  color: #fefeff;
+  
+}
+.footer-icon ul li:nth-child(1) a:hover .fa{
+  color: #3b5998;
+}
+
+.footer-icon ul li:nth-child(2) a:hover .fa{
+  color: #25d366;
+}
+.footer-icon ul li:nth-child(3) a:hover .fa{
+  color: #e4405f;
+}
+.footer-icon ul li:nth-child(4) a:hover .fa{
+  color: #0077b5;
+}
+.footer-icon ul li:nth-child(5) a:hover .fa{
+  color: #c9510c;
+}
+
+#footer-head{
+  background-color: dodgerblue;
+  color: white;
+  position:relative;
+  text-align: center;
+  float: right;
+  margin: 0;
+  padding:0;
+  bottom: 28px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+  
+}
